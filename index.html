@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sistema de Investimento</title>
+  <style>
+    /* Estilo base */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f4f4f9;
+    }
+
+    header {
+      background: #222;
+      color: #fff;
+      padding: 1px;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      margin: 20px 0;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background: #4caf50;
+      color: #fff;
+      border-radius: 4px;
+      text-decoration: none;
+      text-align: center;
+      cursor: pointer;
+    }
+
+    .btn:hover {
+      background: #45a049;
+    }
+
+    .input-group {
+      margin-bottom: 15px;
+    }
+
+    .input-group label {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    .input-group input {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    .table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    .table th, .table td {
+      border: 1px solid #ddd;
+      padding: 10px;
+      text-align: left;
+    }
+
+    .table th {
+      background: #f4f4f9;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h5>Sistema de Investimento em Metical</h5>
+  </header>
+  <div class="container">
+    <div class="card">
+      <h2>Bem-vindo, Usuário</h2>
+      <p>Saldo Atual: <strong>1,000 MT</strong></p>
+      <a href="#deposito" class="btn">Depositar</a>
+      <a href="#levantamento" class="btn">Levantar</a>
+    </div>
+
+    <div class="card">
+      <h2>Histórico de Transações</h2>
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Data</th>
+            <th>Tipo</th>
+            <th>Valor (MT)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2024-12-24</td>
+            <td>Depósito</td>
+            <td>500</td>
+          </tr>
+          <tr>
+            <td>2024-12-23</td>
+            <td>Bônus</td>
+            <td>50</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+</html>
